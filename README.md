@@ -1,1 +1,13 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8636128&assignment_repo_type=AssignmentRepo)
+Mehdi Meguenani TP4
+
+# Exercice 1. Commandes de base
+
+### 1. Commencez par mettre à jour votre système avec les commandes vues dans le cours.
+Afin de mettre a jour le système il faut effectuer 
+```
+apt update ; apt upgrade 
+
+```
+
+### 2. Créez un alias “maj” de la ou des commande(s) de la question précédente. Où faut-il enregistrer cet alias pour qu’il ne soit pas perdu au prochain redémarrage ?
+
