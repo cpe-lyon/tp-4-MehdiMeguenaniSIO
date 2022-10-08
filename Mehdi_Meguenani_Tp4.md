@@ -164,19 +164,19 @@ Une fois toute les étapes fini on obtient cela :
 ![ScreenShotQuestion8](./assetp4/Q27.PNG)
 
 ## Signature du dépôt avec GPG
-# 1. Commencez par créer une nouvelle paire de clés avec la commande
+## 1. Commencez par créer une nouvelle paire de clés avec la commande
 ![ScreenShotQuestion8](./assetp4/Q28.PNG)
 
-# 2. Ajoutez à la configuration du dépôt (fichier distributions la ligne suivante :
+### 2. Ajoutez à la configuration du dépôt (fichier distributions la ligne suivante :
 
 ![ScreenShotQuestion8](./assetp4/Q29.PNG)
-# 3. Ajoutez la clé à votre dépôt 
+### 3. Ajoutez la clé à votre dépôt 
 ![ScreenShotQuestion8](./assetp4/Q30.PNG)
 
-# 4. Ajoutez votre clé publique à votre dépôt avec la commande
+### 4. Ajoutez votre clé publique à votre dépôt avec la commande
 ![ScreenShotQuestion8](./assetp4/Q31.PNG)
 
-# 5. Enfin, ajoutez cette clé à la liste des clés fiables connues de apt :
+### 5. Enfin, ajoutez cette clé à la liste des clés fiables connues de apt :
 
 ![ScreenShotQuestion8](./assetp4/Q32.PNG)
 
