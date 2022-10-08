@@ -128,10 +128,19 @@ Une fois toute les étapes fini on obtient cela :
 Photo 18 
 
 # Exercice 8. Création de dépôt personnalisé
+
 ### 1. Dans le dossier scripts créé lors du TP 2, créez un sous-dossier origine-commande où vous créerez un sous-dossier DEBIAN, ainsi que l’arborescence usr/local/bin où vous placerez le script écrit à l’exercice 2
 
+pHOTO 19 
 
+### 2. Dans le dossier DEBIAN, créez un fichier control avec les champs suivants :
 
+## Création du dépôt personnel avec reprepro
 
+### 1. Dans votre dossier personnel, commencez par créer un dossier repo-cpe. Ce sera la racine de votre dépôt
 
+### 2. Ajoutez-y deux sous-dossiers : conf (qui contiendra la configuration du dépôt) et packages (qui contiendra nos paquets)
+Photo 22 
+
+### 3. Dans conf, créez le fichier distributions suivant :
 
