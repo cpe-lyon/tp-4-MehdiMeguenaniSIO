@@ -144,3 +144,23 @@ Photo 22
 
 ### 3. Dans conf, créez le fichier distributions suivant :
 
+### 4. Dans le dossier repo-cpe, générez l’arborescence du dépôt avec la commande
+
+### 5. Copiez le paquet origine-commande.deb créé précédemment dans le dossier packages du dépôt, puis, à la racine du dépôt, exécutez la commande ``` reprepro -b . includedeb cosmic origine-commande.deb ```
+
+### 6. Il faut à présent indiquer à apt qu’il existe un nouveau dépôt dans lequel il peut trouver des logiciels. Pour cela, créez (avec sudo) dans le dossier /etc/apt/sources.list.d le fichier repo-cpe.list contenant : ``` deb file:/home/VOTRE_NOM/repo-cpe cosmic multiverse ```
+
+### 7. Lancez la commande sudo apt update
+
+
+## Signature du dépôt avec GPG
+# 1. Commencez par créer une nouvelle paire de clés avec la commande
+
+# 2. Ajoutez à la configuration du dépôt (fichier distributions la ligne suivante :
+
+# 3. Ajoutez la clé à votre dépôt 
+
+# 4. Ajoutez votre clé publique à votre dépôt avec la commande
+
+# 5. Enfin, ajoutez cette clé à la liste des clés fiables connues de apt :
+
