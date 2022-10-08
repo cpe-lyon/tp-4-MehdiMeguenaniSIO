@@ -82,5 +82,56 @@ Afin d'afficher selon nom du package si il est installé il faut effectuer la co
 
 Photo 10 
 
-### 
+# Exercice 4.
+### Lister les programmes livrés avec coreutils. En particulier, on remarque que l’un deux se nomme [ . De quoi s’agit-il ?
+
+Pour afficher les progammes livré avec coreutils, il faut faire la commande ``` dpkg -L coreutils ```
+
+Photo 11 
+
+# Exercice 5. aptitude
+
+### Installez les paquets emacs et lynx à l’aide de la version graphique d’aptitude (et prenez deux minutes pour vous renseigner et tester ces paquets).
+
+Lynx est un navigateurs web en mode texte utilisable via une console ou un terminal. Pour l'installer il faut effectuer la commande ``` sudo apt install lynx ``` dans le prochain nous somme sur la page web de wikipedia : 
+Photo  12 
+
+Emacs est un éditeur de texte puissant qui peut servir d'environement de langage pour beaucoup de langage 
+
+
+# Exercice 6. Installation d’un paquet par PPA
+
+### 1. Installer la version Oracle de Java (avec l’ajout des PPA)
+
+La commande qui permet d'installer oracle Java avec l'ajout des PPA est ``` sudo add-apt-repository -y ppa:webupd8team/java && sudo apt-get update && sudo apt-get install -y oracle-java8-installer ```
+
+
+
+### 2. Vérifiez qu’un nouveau fichier a été créé dans /etc/apt/sources.list.d. Que contient-il ?
+
+Le dossier source.list.d contient les sources utilisés pour installer les paquets 
+Photo 14 
+
+# Exercice 7. Installation d’un logiciel à partir du code source
+
+### 1. Commencez par cloner le dépôt git suivant : git clone https://gitlab.com/jallbrit/cbonsai
+
+Photo 16 
+
+### 2. Rendez vous dans le dossier cbonsai. Un fichier README.md) est livré avec les sources, et vous explique comment compiler le programme. 
+
+Il faut installer le paquet ``` sudo apt install libncursesw5-dev ```
+Photo 17
+
+Une fois toute les étapes fini on obtient cela : 
+
+Photo 18 
+
+# Exercice 8. Création de dépôt personnalisé
+### 1. Dans le dossier scripts créé lors du TP 2, créez un sous-dossier origine-commande où vous créerez un sous-dossier DEBIAN, ainsi que l’arborescence usr/local/bin où vous placerez le script écrit à l’exercice 2
+
+
+
+
+
 
